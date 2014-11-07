@@ -18,7 +18,6 @@ GulpStrap provides a clean starter kit with some basic Gulp tasks for your appli
 1. Clone the repo: `git clone https://github.com/yasinkocak/gulpstrap.git`.
 2. [Install Node.js / npm](http://nodejs.org/download/)
 3. Fetch the dependencies with npm:
-
         npm install
 
 ### What's included

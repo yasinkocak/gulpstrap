@@ -1,7 +1,9 @@
 # GulpStrap
 GulpStrap provides a clean starter kit with some basic Gulp tasks for your application including some common CSS, JavaScript and even testing tools!
 
-- [Quickstart](#quickstart)
+- [Installation](#installation)
+- [What's included](#whatsincluded)
+- [Bugs and feature requests](#bugsandfeatures)
 
 ### Features
 * Copying Files
@@ -12,14 +14,15 @@ GulpStrap provides a clean starter kit with some basic Gulp tasks for your appli
 * Combine/Minify Your Javascript
 * Watching Files For Changes
 
-<a name="quickstart"></a>
-## Quickstart
-
+<a name="installation"></a>
+### Installation
+**Prerequisites**
+[Node.js](http://nodejs.org/download/), [NPM](https://www.npmjs.org/) & [Gulp](http://gulpjs.com/) are the absolute requirements. If you have any trouble installing it, refer to the documentation for help.
 1. Clone the repo: `git clone https://github.com/yasinkocak/gulpstrap.git`.
-2. [Install Node.js / npm](http://nodejs.org/download/)
-3. Fetch the dependencies with npm:
-        npm install
+2. Fetch the dependencies with npm: `npm install`.
+3. Setup your configuration on `gulp/config.js'.
 
+<a name="whatsincluded"></a>
 ### What's included
 
 Within the download you'll find the following directories and files. You'll see something like this:
@@ -42,6 +45,7 @@ gulpstrap/
 └── package.json
 ```
 
+<a name="bugsandfeatures"></a>
 ## Bugs and feature requests
 
 Have a bug or a feature request? [please open a new issue](https://github.com/yasinkocak/gulpstrap/issues).

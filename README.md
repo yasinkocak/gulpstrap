@@ -18,6 +18,7 @@ GulpStrap provides a clean starter kit with some basic Gulp tasks for your appli
 ### Installation
 **Prerequisites**
 [Node.js](http://nodejs.org/download/), [NPM](https://www.npmjs.org/) & [Gulp](http://gulpjs.com/) are the absolute requirements. If you have any trouble installing it, refer to the documentation for help.
+
 1. Clone the repo: `git clone https://github.com/yasinkocak/gulpstrap.git`.
 2. Fetch the dependencies with npm: `npm install`.
 3. Setup your configuration on `gulp/config.js'.

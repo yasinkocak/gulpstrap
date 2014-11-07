@@ -6,6 +6,7 @@ GulpStrap provides a clean starter kit with some basic Gulp tasks for your appli
 ### Features
 * Copying Files
 * Compress Images
+* Compiling Less
 * Compiling Sass/Compass
 * Hinting Your Javascript
 * Combine/Minify Your Javascript

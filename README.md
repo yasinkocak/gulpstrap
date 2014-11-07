@@ -1,44 +1,58 @@
 # GulpStrap
+GulpStrap provides a clean starter kit with some basic Gulp tasks for your application including some common CSS, JavaScript and even testing tools!
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Gulp](#gulp)
-- [Extensions](#extensions)
+- [Quickstart](#quickstart)
 
-<a name="introduction"></a>
-## Introduction
+### Features
+* Copying Files
+* Compress Images
+* Compiling Sass/Compass
+* Hinting Your Javascript
+* Combine/Minify Your Javascript
+* Watching Files For Changes
 
-GulpStrap provides a clean starter kit with some basic [Gulp](http://gulpjs.com) tasks for your application.
-Support several common CSS, JavaScript and even testing tools!
+<a name="quickstart"></a>
+## Quickstart
 
-<a name="installation"></a>
-## Installation
-
-## Setup
-
-1. Git clone this repo
+1. Clone the repo: `git clone https://github.com/yasinkocak/gulpstrap.git`.
 2. [Install Node.js / npm](http://nodejs.org/download/)
 3. Fetch the dependencies with npm:
 
         npm install
 
-4. Install Gulp
+### What's included
 
-        npm install 
+Within the download you'll find the following directories and files. You'll see something like this:
 
-5. Configuration
-All settings and paths have been abstracted into a centralized config object in "gulp/config.js"
+```
+gulpstrap/
+├── gulp/
+│   ├── tasks/
+│   │   ├── clean.js
+│   │   ├── copy.js
+│   │   ├── default.js
+│   │   ├── images.js
+│   │   ├── less.js
+│   │   ├── lint.js
+│   │   ├── sass.js
+│   │   ├── scripts.js
+│   │   ├── watch.js
+│   ├── config.js
+├── gulpfile.js
+└── package.json
+```
 
-<a name="usage"></a>
-## Usage
+## Bugs and feature requests
 
-<a name="gulp"></a>
-## Gulp
+Have a bug or a feature request? [please open a new issue](https://github.com/yasinkocak/gulpstrap/issues).
 
-<a name="extensions"></a>
-## Extensions
+## Creator
+
+**Yasin Kocak**
+
+- <https://github.com/yasinkocak>
 
 
+## Copyright and license
 
-
+Code and documentation copyright 2014. Code released under [the MIT license](LICENSE).

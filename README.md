@@ -28,7 +28,6 @@ Support several common CSS, JavaScript and even testing tools!
         npm install 
 
 5. Configuration
-
 All settings and paths have been abstracted into a centralized config object in "gulp/config.js"
 
 <a name="usage"></a>

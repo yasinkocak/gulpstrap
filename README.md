@@ -98,8 +98,31 @@ There are default objects
 * `duplicate` — Which files will be copied when `gulp copy` is executed
 * `lint` — Which JavaScripts will be hinting when `gulp lint` is executed
 * `clean` — Wich directories will be clean when `gulp clean` is executed
+```php
+module.exports = {
 
+	// Which tasks will be fired when default task is executed?
+	tasks: [],
 
+	// Which will be watch?
+	watchers: {},
+
+	// Scripts and styles.
+	assets: { css: {}, js: {}, images: {} },
+
+	// Files to be copied
+	duplicate: [],
+
+	// Hinting Your Javascript
+	lint: {},
+
+	// Wich directories will be clean?
+	clean: [],
+
+	// The default root output directory.
+	baseDir: dest
+};
+```
 
 <a name="bugsandfeatures"></a>
 ## Bugs and feature requests

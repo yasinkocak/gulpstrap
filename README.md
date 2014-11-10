@@ -1,4 +1,4 @@
-# gulpstrap
+# Gulpstrap
 Gulpstrap provides a clean starter kit with some basic Gulp tasks for your application including some common CSS, JavaScript and even testing tools!
 
 - [Features](#features)
@@ -10,19 +10,24 @@ Gulpstrap provides a clean starter kit with some basic Gulp tasks for your appli
 - [Bugs and feature requests](#bugsandfeatures)
 
 <a name="features"></a>
-### Features
+## Features
 * Copying Files
 * Compress Images
 * Compiling Less
 * Compiling Sass/Compass
-* Autoprefix CSS
 * Hinting Your Javascript
-* Combine/Minify Your Javascript
-* Apache HTTP server boilerplate configs
+* Combine Your Javascript
 * Watching Files For Changes
 
+### Aditional features
+* Minification CSS / Javascript
+* Autoprefixer CSS
+* Apache HTTP server boilerplate configs
+* Runs a sequence of gulp tasks
+* Notification
+
 <a name="whatsincluded"></a>
-### What's included
+## What's included
 
 Within the download you'll find the following directories and files. You'll see something like this:
 
@@ -56,7 +61,7 @@ gulpstrap/
 * `gulp watch` - Watching assets when file changes are made
 
 <a name="installation"></a>
-### Installation
+## Installation
 **Prerequisites**
 [Node.js](http://nodejs.org/download/), [NPM](https://www.npmjs.org/) & [Gulp](http://gulpjs.com/) are the absolute requirements. If you have any trouble installing it, refer to the documentation for help.
 

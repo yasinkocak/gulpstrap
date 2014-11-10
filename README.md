@@ -60,7 +60,7 @@ gulpstrap/
 **Prerequisites**
 [Node.js](http://nodejs.org/download/), [NPM](https://www.npmjs.org/) & [Gulp](http://gulpjs.com/) are the absolute requirements. If you have any trouble installing it, refer to the documentation for help.
 
-Clone the git repo - `git clone https://github.com/yasinkocak/gulpstrap.git` - or [download it](https://github.com/yasinkocak/gulpstrap/archive/master.zip) and then rename the directory to the name of your theme or website.
+Clone the git repo - `git clone https://github.com/yasinkocak/gulpstrap.git` - or [download it](https://github.com/yasinkocak/gulpstrap/archive/master.zip) and then rename the directory to the name of your project.
 
 **Install NPM dependencies**
 ``

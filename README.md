@@ -82,14 +82,14 @@ Our `app` folder contains the following sub-folders:
   * `scripts` — multiple pre-processed script files
   * `sass` — multiple pre-processed Sass files
 
-> If you want Less instead Sass
+> If you want Less instead of Sass
 > create `less` directory in `assets`
 
 <a name="configuration"></a>
-### Congifuration
-Edit `gulp/config.js` to setting up your project.
+### Configuration
+Edit `gulp/config.js` to set up your project.
 
-Definition your build and src directory:
+Define your build and src directory:
 ```php
 var dest = './public',
 	src = './app';
@@ -102,7 +102,7 @@ There are default objects
 * `assets` — Locations and options of scripts, styles and images
 * `duplicate` — Which files will be copied when `gulp copy` is executed
 * `lint` — Which JavaScripts will be hinting when `gulp lint` is executed
-* `clean` — Wich directories will be clean when `gulp clean` is executed
+* `clean` — Which directories will be clean when `gulp clean` is executed
 ```php
 module.exports = {
 

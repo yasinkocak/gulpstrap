@@ -7,7 +7,7 @@ Gulpstrap provides a clean starter kit with some basic Gulp tasks for your appli
 - [Installation](#installation)
 - [Setup your project](#setup)
 - [Configuration](@configuration)
-- [Bugs and feature requests](#bugsandfeatures)
+- [Contributing](#contributing)
 
 <a name="features"></a>
 ## Features
@@ -129,17 +129,21 @@ module.exports = {
 };
 ```
 
-<a name="bugsandfeatures"></a>
-## Bugs and feature requests
-
-Have a bug or a feature request? [please open a new issue](https://github.com/yasinkocak/gulpstrap/issues).
-
 ## Creator
 
 **Yasin Kocak**
 
 - <https://github.com/yasinkocak>
 
+<a name="contributing"></a>
+## Contributing
+
+Everyone is welcome to help contribute and improve this project. There are several ways you can contribute:
+
+* Reporting issues (please read [issue guidelines](https://github.com/necolas/issue-guidelines))
+* Suggesting new features
+* Writing or refactoring code
+* Fixing [issues](https://github.com/yasinkocak/gulpstrap/issues)
 
 ## Copyright and license
 
